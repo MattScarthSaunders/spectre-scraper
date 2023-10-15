@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "spectre-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Matthew Scarth-Saunders <101186068+MattScarthSaunders@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "spectre_scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapy = "^2.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
